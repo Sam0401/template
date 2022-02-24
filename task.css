@@ -1,0 +1,348 @@
+*{ font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(background.jpg);
+    color: #fff;
+}
+.top{
+   background-color: black; 
+   height: 40px;
+   display: flex;
+}
+p{
+    padding: 10px 50px;
+}
+.icons{
+    font-size: 20px;
+    padding:10px 20px 20px  800px;
+} 
+/* NAVBAR */
+.navbar{
+    margin-top:-56%;
+    height: 100px;
+    background-color: rgba(240, 248, 255, 0.171);
+    display: flex;
+}
+.navbar h1{
+    margin-top:30px;
+    margin-left: 40px; 
+    font-size: 35px;
+}
+.menu{
+    margin-left: 700px;
+    margin-top: 25px;
+    display: flex;
+    list-style: none;
+    text-align: center; 
+}
+.menu li:hover{
+    color: rgb(231, 163, 36);;
+}
+.menu li{
+    padding:15px 10px;
+    font-size: 15px;
+}
+/* video */
+.video{
+   z-index: 100;
+   background-color: rgba(10, 9, 9, 0.562);
+   display: flex;
+   width: 99vw;
+}
+
+.play{
+z-index: -1;
+width: 99vw;
+background-position: center;
+} 
+/* paragraph */
+
+.para h5{
+    margin-top: 8%;
+    margin-bottom: 15px;
+    font-size: 15px;      
+    letter-spacing: 1px;
+   }
+   .para h1{ 
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;   
+   }
+   .para{
+       max-width: 47%;
+       margin-left: 50px;
+       margin-top: 150px;
+   } 
+   .para p{
+    margin-left: -50px;
+   }
+   .button {
+    background-color: rgba(150, 0, 0, 0.932);
+    color: aliceblue;
+    padding: 0.7vmax 1.2vmax;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top: 1vmax;
+    border: none;
+  }
+  .section{
+      display: flex;
+      align-items: center;
+      margin-top: 250px;
+  }
+  .dabbe{
+      background-color: rgba(175, 32, 32, 0.884);
+      height: 250px;
+      width: 400px;
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+      border-radius: 25px;
+  }
+  .button2{
+      width: 80px;
+      height: 80px;
+      border-radius: 108px;
+      font-size: 2rem;
+  }
+  .ion{
+      font-size: 2rem;
+      margin: 10px;
+      color: rgb(231, 163, 36);
+      border: 2px solid;
+      padding: 15px;
+      border-radius: 100px;
+  }
+  h4{
+    font-size: 30px;
+    margin: 30px 550px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .dadi{
+      background-color: rgb(240, 246, 247);
+      color:black;
+      width: 300px;
+      height: 400px;
+      margin-top: -700px;
+      margin-left: 30px;
+      border-radius: 25px;
+      text-align:left;
+    padding:50px;
+  }
+  .dadi h3{
+      padding-bottom: 20px;
+      padding: 20px;
+      font-size: 20px;
+  }
+  .dadi p{ 
+      padding-bottom: 10px;
+      margin-left: -40px;
+  }
+  .small{
+      height: 350px;
+      width: 400px;
+      margin-left: 30px;
+      background-color:white;
+      border-radius: 30px;
+  }
+  .small h3{
+      padding:10px;
+  }
+  .boss{
+      display: flex;
+      height:350px ;
+      margin-left: 500px;
+      color: black;
+      text-align: center;
+      margin-top: 50px;
+  }
+  .img{
+      border-radius: 30px 30px 0px 0px ;
+      height: 250px;
+      width: 400px;
+  } 
+  .part{
+     background-image: url(stud.jpg);
+     background-attachment: fixed;
+     height: 100vh;
+     width: 93.7vw;
+     margin-top: 400px;
+  background-color:black ;
+  z-index: 100;
+  padding: 40px;
+  }
+  .apply{
+      padding: 30px;
+    margin-top: 20px;
+      text-align: left;
+      height: 200px;
+      width: 500px;
+      margin: 60px;
+       background-color: rgba(7, 5, 5, 0.322);
+  }
+  .button3{
+    background-color: rgba(175, 150, 9, 0.932);
+    color: aliceblue;
+    padding: 0.7vmax 1.2vmax;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top: 1vmax;
+    border: none;
+  }
+  .apply p{
+      margin-left: -40px;
+  }
+  .about{
+      padding: 25px;
+      height: 500px;
+      border-radius: 30px;
+      text-align: left;
+      width: 550px;
+      color:black ;
+      line-height: 6rem;
+      background-color: white;
+      margin-left: 800px;
+      font-size: 25px;
+      margin-top: -750px;
+  }
+  /* oUR POPULAR CRS */
+  .head3{
+      margin-top: 200px;
+      padding: 50px;
+      padding-left: 100px;
+  }
+  .pattern{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    margin-top: -50px;
+  }
+  
+  .mybox{
+      height: 380px;
+      width: 300px;
+      background-color: #fff;
+      margin: 15px;
+      color: black;
+      font-size: 20px;
+      text-align: center;
+  }
+  .image{
+height: 250px;
+width: 300px;
+  }
+  .mybox p{
+      font-size: 20px;
+  } 
+  .univ{
+      background-image: url(myimage.jpg);
+      background-attachment: fixed;
+      height: 100vh;
+      width: 99vw;
+      
+  }
+  .part2{
+    display: flex;
+}
+  /* facts */
+
+.data{
+    padding-top:50px;
+    padding-left: 100px;
+    max-width: 700px;
+    margin: 30px;
+    font-size: 25px;    
+}
+.subfact{
+    padding: 20px;
+    height: 100px;
+    margin:  20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.356);  
+}
+
+.facts{
+   margin-top: 70px;
+   margin-left: 100px;
+    
+}
+.facts2{
+margin-top: 100px;
+}
+.vid{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+  
+  /* contact */
+.call{
+    display: flex;
+    margin: 20px;
+}
+input{
+    padding:5px;
+    margin: 10px;
+    height: 50px;
+    width: 210px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(223, 234, 243);
+}
+  .contact{ margin: 30px;
+    margin-left: 100px;
+      height: 500px;
+      width: 800px;
+      background-color: #fff;
+      color: black;
+      border-radius: 20px;
+      padding: 30px;
+  }
+ .myhead{
+    padding: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.address{
+    width: 710px;
+ height: 200px;
+ margin-left: -40px;
+}   
+.info{
+    width: 300px;
+  background-color: rgb(151, 0, 0);
+  border-radius: 25px;
+  padding: 1vmax;
+  margin-top: -600px;
+  margin-left: 65%;
+  color: rgb(255, 255, 255);
+  margin-bottom: 5vmax;
+}
+.hr {
+    color: aliceblue;
+    opacity: 30%;
+    width: 10vmax;
+    margin: 1vmax;
+    align-items: center;
+  }
+  .info h3{
+      padding: 10px;
+      margin-bottom: 20px;
+  } 
+  .info p{
+      font-size: 15px;
+      padding: 20px;
+  }
+  .footer{
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 35px;
+  }
